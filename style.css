@@ -1,0 +1,188 @@
+body {
+    margin: 4rem;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+#headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.forkAndKnife {
+    width: 65px;
+    height: 65px;
+}
+
+#h1Div {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#h1Div p {
+    font-family: Dosis;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#icons div {
+    margin: 5px;
+}
+
+.hrContainer {
+    margin-top: 2rem;
+    background-image: url("images/hr-img.png");
+    background-repeat: repeat-x;
+}
+
+/* Main */
+
+h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Oswald;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#printContainer {
+    color: gray;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#printContainer p {
+    font-family: Dosis;
+}
+
+#printImg {
+    display: flex;
+}
+
+#printImg img {
+    width: 20px;
+    height: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content img {
+    margin-top: 2rem;
+}
+
+
+#blogParagraph {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 1rem;
+    color: gray;
+}
+
+/* Form */
+
+form {
+    width: 700px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 5px 10px #aaaa;
+    background-image: url(images/list-bg.png);
+    margin: auto;
+}
+
+#formContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.listItem label {
+    margin-top: 10px;
+
+}
+
+/* Vanessa */
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#vanessa {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#vanessaContent {
+    display: flex;
+    flex-direction: column;
+}
+
+#vanessaBio {
+    display: flex;
+}
+
+#vanessaContent p {
+    color: gray;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1rem;
+}
+
+button {
+    font-family: Dosis;
+    font-size: 20px;
+    background-color: rgb(205, 126, 101);
+    color: white;
+    width: 190px;
+    height: 60px;
+}
+
+/* Footer */
+
+#footerDiv {
+    color: gray;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footerDiv p {
+    margin-top: 5px;
+}
